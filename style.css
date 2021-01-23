@@ -1,0 +1,57 @@
+:root {
+	--h1-font-size: 1.5rem;
+	--h2-font-size: 1.25rem;
+	--h3-font-size: 1rem;
+
+	/* =======margin====== */
+
+	--mb-1: 0.5rem;
+	--mb-2: 1rem;
+	--mb-3: 1.5rem;
+	--mb-4: 2rem;
+	--mb-5: 2.5rem;
+}
+
+body {
+	margin: 0;
+}
+ul {
+	padding: 0;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+.lg_container {
+	max-width: 960px;
+}
+.nav_header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: blueviolet;
+}
+.nav {
+	max-width: 1024px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav_item {
+	margin-bottom: var(--mb-2);
+}
+
+.nav_link,
+.nav_logo,
+.nav_toggle {
+	color: rgb(215, 228, 36);
+	font-weight: 500;
+}
+.nav_logo {
+	font-size: 2rem;
+	font-weight: 600;
+}
+.nav_logo:hover {
+	color: crimson;
+}
