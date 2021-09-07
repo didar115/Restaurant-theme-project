@@ -3,3 +3,23 @@
     font-family: 'Play', sans-serif;
 
 }
+
+.menu-card{
+    height: 300px;
+    width: auto;
+    display: flex;
+    box-shadow: 0 2px 4px rgb(3 74 40 / 15%);
+    border-radius: .5rem;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+.menu-card img{
+    height: 150px;
+    width: auto;
+}
+
+/* color for text  */
+.special-color{
+    color: #707070;
+}
