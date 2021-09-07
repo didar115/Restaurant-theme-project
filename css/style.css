@@ -14,6 +14,10 @@
     cursor: pointer;
     
 }
+.menu-card:hover{
+    box-shadow: 5px 5px 15px 1px grey;
+    transition: linear;
+}
 .menu-card img{
     height: 150px;
     width: auto;
